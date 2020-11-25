@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Banner checklist</title>
+    <link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png" />
+    <!-- axios -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.20.0/axios.min.js"
+        integrity="sha512-quHCp3WbBNkwLfYUMd+KwBAgpVukJu5MncuQaWXgCrfgcxCJAq/fo+oqrRKOj+UKEmyMCG3tb8RB63W+EmrOBg=="
+        crossorigin="anonymous"></script>
+    <!-- font awesome -->
+    <script src="https://kit.fontawesome.com/87db9f4c72.js" crossorigin="anonymous"></script>
+    <!-- typekit -->
+    <link rel="stylesheet" href="https://use.typekit.net/mjf4tnu.css">
+    <!-- Google API -->
+    <script src="https://www.google.com/jsapi"></script>
+    <!-- own css -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- tasks -->
+    <script src="js/toDosAdform.js"></script>
+    <script src="js/toDosIAB.js"></script>
+    <script src="js/toDosGrafik.js"></script>
+    <!-- main js data -->
+    <script src="js/main.js"></script>
+</head>
+
+<body>
+
+    <header class="masthead">
+        <nav class="nav">
+            <div class="navbar container">
+                <div class="brand">
+                    <h1>Banner Checklist</h1>
+                </div>
+                <div class="burger-menu">
+                    <i class="fas fa-bars fa-2x"></i>
+                </div>
+                <div class="menu-items">
+                    <ul>
+                        <li data-link="adform"><a>Adform</a></li>
+                        <li data-link="iab"><a>IAB</a></li>
+                        <li data-link="grafik"><a>Grafik</a></li>
+                        <li data-link="clear-data"><a>Clear Data</a></li>
+                        <li id="mode">
+                            <i class="far fa-moon"></i>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+        </nav>
+    </header>
+    <main class="container">
+        <div class="progress-bar">
+            <h2>progress</h2>
+            <progress></progress>
+        </div>
+
+    </main>
+    <!-- <div>
+        <script async src="https://cse.google.com/cse.js?cx=0617040ac485cb48c"></script>
+        <div class="gcse-search"></div>
+    </div>
+    <script>
+        function hndlr(response) {
+            for (var i = 0; i < response.items.length; i++) {
+                var item = response.items[i];
+                // in production code, item.htmlTitle should have the HTML entities escaped.
+                console.log(item.htmlTitle);
+            }
+        }
+    </script>
+    <script
+        src="https://www.googleapis.com/customsearch/v1?key=AIzaSyDuAc0jjh-V2e92HjmQ_WurXSc1X6Ng_KQ&cx=0617040ac485cb48c&searchType=image&q=cars&callback=hndlr"></script> -->
+    <!-- <script
+        src="https://www.googleapis.com/customsearch/v1?key=AIzaSyDuAc0jjh-V2e92HjmQ_WurXSc1X6Ng_KQ&cx=017576662512468239146:omuauf_lfve&q=cars&callback=hndlr"></script> -->
+</body>
+
+</html>
